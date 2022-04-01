@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap");
+*,
+*::after
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+#logo {
+  text-decoration: none;
+  padding: 0.5rem; }
+  #logo .big {
+    font-size: 4em;
+    font-weight: bold;
+    color: darkred;
+    font-family: 'Anybody',cursive; }
+  #logo .cam {
+    font-size: 4em;
+    font-weight: bold;
+    color: darkorange;
+    font-family: 'Anybody',cursive; }
+
+.navbr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .navbr a {
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Anybody', cursive; }

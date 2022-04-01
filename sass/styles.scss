@@ -1,0 +1,31 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+// FUENTE TITULOS
+// font-family: 'Anybody', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+// FUENTE TEXTOS
+// font-family: 'Anybody', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap');
+// FUENTE NABVAR
+// font-family: 'Anybody', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap');
+
+// FRACCIONES
+@import "components/header-footer/header";
+@import "components/header-footer/footer";
+@import "components/index";
+@import "components/services";
+@import "components/cameras";
+@import "components/about";
+@import "components/contact";

@@ -1,0 +1,26 @@
+#logo{
+    text-decoration: none;  
+    padding: 0.5rem;  
+    .big{
+        font-size: 4em;
+        font-weight: bold;
+        color: darkred;
+        font-family: 'Anybody',cursive;
+    }
+    .cam{
+        font-size: 4em;
+        font-weight: bold;
+        color: darkorange;
+        font-family: 'Anybody',cursive;
+    }
+}
+.navbr{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    a{               
+        text-decoration:none;
+        font-size: 2em;
+        font-family: 'Anybody', cursive;
+    }
+}
