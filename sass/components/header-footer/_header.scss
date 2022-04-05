@@ -18,9 +18,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: darkorange;
+    height: 4rem;    
+    align-items: center;
+    list-style: none;
     a{               
         text-decoration:none;
         font-size: 2em;
-        font-family: 'Anybody', cursive;
+        font-family: 'Anybody', cursive;   
+        color: black;   
+        &:hover {
+            color: white;
+            transition: all 0.3s;            
+        }         
+    }
+    .sub_menu{
+        position: absolute;
+        list-style: none;
+        background-color: darkorange;
+        display:none;
+        a{
+            display: block;
+            padding: 0.3rem;            
+        }        
+    }
+    li:hover .sub_menu{
+        display: block;
     }
 }
