@@ -36,13 +36,17 @@
         position: absolute;
         list-style: none;
         background-color: darkorange;
-        display:none;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
         a{
             display: block;
             padding: 0.3rem;            
         }        
     }
     li:hover .sub_menu{
-        display: block;
+        display: block;  
+        visibility: visible;
+        opacity: 1;           
     }
 }

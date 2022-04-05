@@ -11,6 +11,9 @@
 html {
   font-size: 62.5%; }
 
+body {
+  background-color: #fcc766; }
+
 #logo {
   text-decoration: none;
   padding: 0.5rem; }
@@ -45,9 +48,13 @@ html {
     position: absolute;
     list-style: none;
     background-color: darkorange;
-    display: none; }
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s; }
     .navbr .sub_menu a {
       display: block;
       padding: 0.3rem; }
   .navbr li:hover .sub_menu {
-    display: block; }
+    display: block;
+    visibility: visible;
+    opacity: 1; }
