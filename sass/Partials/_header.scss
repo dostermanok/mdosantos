@@ -9,7 +9,7 @@
     .big{
         font-size: 4em;
         font-weight: bold;
-        color: rgb(217, 243, 99);
+        color: black;
         font-family: 'Anybody',cursive;
     }
     .cam{
@@ -33,8 +33,7 @@
         font-family: 'Anybody', cursive;   
         color: black;  
         transition: all 0.3s;  
-        &:hover {
-            color: white;
+        &:hover {            
             transition: all 0.3s;  
             font-size: 2.5em;          
         }         
