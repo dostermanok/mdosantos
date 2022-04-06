@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap");
-*,
-*::after
-*::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -12,27 +10,31 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: #fcc766; }
+  background-color: #647067; }
 
 #logo {
   text-decoration: none;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  transition: all 3s; }
+  #logo:hover {
+    font-size: 1.5em;
+    transition: all 3s; }
   #logo .big {
     font-size: 4em;
     font-weight: bold;
-    color: darkred;
+    color: #d9f363;
     font-family: 'Anybody',cursive; }
   #logo .cam {
     font-size: 4em;
     font-weight: bold;
-    color: darkorange;
+    color: yellow;
     font-family: 'Anybody',cursive; }
 
 .navbr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: darkorange;
+  background-color: yellow;
   height: 4rem;
   align-items: center;
   list-style: none; }
@@ -40,21 +42,25 @@ body {
     text-decoration: none;
     font-size: 2em;
     font-family: 'Anybody', cursive;
-    color: black; }
+    color: black;
+    transition: all 0.3s; }
     .navbr a:hover {
       color: white;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      font-size: 2.5em; }
   .navbr .sub_menu {
+    display: block;
+    border-radius: 10px;
     position: absolute;
     list-style: none;
-    background-color: darkorange;
+    background-color: yellow;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s; }
-    .navbr .sub_menu a {
-      display: block;
-      padding: 0.3rem; }
+    .navbr .sub_menu li {
+      padding: 0.5rem; }
   .navbr li:hover .sub_menu {
     display: block;
     visibility: visible;
-    opacity: 1; }
+    opacity: 1;
+    background-color: yellow; }
