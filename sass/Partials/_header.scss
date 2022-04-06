@@ -3,17 +3,17 @@
     padding: 0.5rem;  
     transition: all 0.3s;
     &:hover{
-        font-size: 1.5em;
+        font-size: 1.3em;
         transition: all 0.3s;
     }
     .big{
-        font-size: 4em;
+        font-size: 5em;
         font-weight: bold;
         color: black;
         font-family: 'Anybody',cursive;
     }
     .cam{
-        font-size: 4em;
+        font-size: 5em;
         font-weight: bold;
         color: yellow;
         font-family: 'Anybody',cursive;
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: yellow;
-    height: 4rem;    
+    height: 3rem;    
     align-items: center;
     list-style: none;
     a{               

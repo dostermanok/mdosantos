@@ -17,15 +17,15 @@ body {
   padding: 0.5rem;
   transition: all 0.3s; }
   #logo:hover {
-    font-size: 1.5em;
+    font-size: 1.3em;
     transition: all 0.3s; }
   #logo .big {
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     color: black;
     font-family: 'Anybody',cursive; }
   #logo .cam {
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     color: yellow;
     font-family: 'Anybody',cursive; }
@@ -35,7 +35,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: yellow;
-  height: 4rem;
+  height: 3rem;
   align-items: center;
   list-style: none; }
   .navbr a {
