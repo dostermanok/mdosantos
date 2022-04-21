@@ -9,12 +9,10 @@
 html {
   font-size: 62.5%; }
 
-body {
-  background-color: #647067; }
-
 #logo {
+  position: fixed;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 1rem;
   transition: all 0.3s; }
   #logo:hover {
     font-size: 1.3em;
@@ -23,21 +21,25 @@ body {
     font-size: 5em;
     font-weight: bold;
     color: black;
-    font-family: 'Anybody',cursive; }
+    font-family: 'Anybody', cursive; }
   #logo .cam {
     font-size: 5em;
     font-weight: bold;
     color: yellow;
-    font-family: 'Anybody',cursive; }
+    font-family: 'Anybody', cursive; }
 
 .navbr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: yellow;
-  height: 3rem;
   align-items: center;
-  list-style: none; }
+  list-style: none;
+  position: fixed;
+  top: 11%;
+  left: 10px; }
+  .navbr li {
+    margin: 0.5rem; }
   .navbr a {
     text-decoration: none;
     font-size: 2em;
@@ -46,7 +48,8 @@ body {
     transition: all 0.3s; }
     .navbr a:hover {
       transition: all 0.3s;
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      color: white; }
   .navbr .sub_menu {
     display: block;
     border-radius: 10px;
@@ -63,3 +66,27 @@ body {
     visibility: visible;
     opacity: 1;
     background-color: yellow; }
+
+#servicios {
+  background-color: #949693; }
+
+#camaras {
+  background-color: crimson; }
+
+#sobre_nosotros {
+  background-color: #ffc400; }
+
+#contacto {
+  background-color: #53008b; }
+
+.seccion {
+  width: 100%;
+  height: 100vh; }
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: 'Anybody', cursive;
+  font-weight: bold; }
