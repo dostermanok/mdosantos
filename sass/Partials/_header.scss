@@ -1,5 +1,9 @@
-#logo {
+header{
     position: fixed;
+    z-index: 9999;
+}
+
+#logo {    
     text-decoration: none;
     padding: 1rem;
     transition: all 0.3s;
@@ -26,13 +30,12 @@
 
 .navbr {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
     border-radius: 10px;
     justify-content: space-around;
     background-color: yellow;
     align-items: center;
-    list-style: none;
-    position: fixed;
+    list-style: none;    
     top: 11%;
     left: 10px;
 

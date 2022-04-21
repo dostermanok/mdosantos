@@ -14,6 +14,7 @@
 .seccion{
     width: 100%;
     height: 100vh; 
+    position: relative;
 }
 
 h1{
@@ -22,7 +23,10 @@ h1{
     font-size: 2em;
     letter-spacing: 2px;
     font-family: 'Anybody', cursive;
-    font-weight: bold;             
+    font-weight: bold;    
+    position: absolute;
+    bottom: 0;       
+    width: 100%;  
 }
 
 
