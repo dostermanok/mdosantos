@@ -27,6 +27,7 @@
 .navbr {
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
     justify-content: space-around;
     background-color: yellow;
     align-items: center;
@@ -49,7 +50,6 @@
         &:hover {
             transition: all 0.3s;
             font-size: 2.5em;
-            color: white;
         }
     }
 
